@@ -1,0 +1,2 @@
+netbox-bgp
+netbox-plugin-dns
