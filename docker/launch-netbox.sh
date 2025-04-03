@@ -44,7 +44,7 @@ load_configuration() {
   echo "✅ Unit configuration loaded successfully"
 }
 
-load_configuration &
+# load_configuration &
 
 exec unitd \
   --no-daemon \
