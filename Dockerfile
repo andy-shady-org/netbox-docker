@@ -104,7 +104,7 @@ RUN mkdir -p static /opt/unit/state/ /opt/unit/tmp/ \
 ENV LANG=C.utf8 PATH=/opt/netbox/venv/bin:$PATH VIRTUAL_ENV=/opt/netbox/venv UV_NO_CACHE=1
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
-CMD [ "/opt/netbox/docker-entrypoint.sh", "/opt/netbox/launch-netbox.sh" ]
+# CMD [ "/opt/netbox/docker-entrypoint.sh", "/opt/netbox/launch-netbox.sh" ]
 
 LABEL netbox.original-tag="" \
       netbox.git-branch="" \
