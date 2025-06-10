@@ -3,7 +3,7 @@ services:
     image: netbox:latest-plugins
     pull_policy: never
     ports:
-      - 8080:8080
+      - 8000:8081
     build:
       context: .
       dockerfile: Dockerfile-Plugins
